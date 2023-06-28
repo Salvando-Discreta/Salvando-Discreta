@@ -40,4 +40,10 @@
     <string name="descrip_tion_wel_come">Las matemáticas poseen no solo la verdad, sino cierta belleza suprema. Una belleza fría y austera, como la de una escultura.</string>
     <string name="refe_rence">Bertrand Russel (1872-1970) Filósofo,matemático y escritor británico.</string>
     <string name="inicia_a_aprender">Inicia a aprender</string>
+    <string name="contra_incorrecta">Contraseña incorrecta</string>
+    <string name="tablas_logicas_txt">Tablas lógicas</string>
+    <string name="conjuntos_txt">Conjuntos</string>
+    <string name="algebra_boole_string">Álgebra de boole</string>
+    <string name="atring_probabilidad">Probabilidad</string>
+    <string name="mate_discreta_plus">Mátematica Discreta +</string>
 </resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_editar_avatar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="224dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        app:srcCompat="@drawable/avatar_jirafa" />
+
+    <Button
+        android:id="@+id/button_user_name"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/colorfucsia"
+        android:text="MathLover"
+        android:textSize="22sp"
+        app:cornerRadius="12dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="206dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/txt_tu_cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:gravity="start"
+        android:text="@string/tu_cuenta"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_user_name"
+        />
+
+    <TextView
+        android:id="@+id/txt_cuenta_iniciada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:gravity="right"
+        android:text="Iniciaste sesión con ilovemaths@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tu_cuenta"
+        />
+
+    <TextView
+        android:id="@+id/txt_editar_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:gravity="right"
+        android:text="Editar avatar"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cuenta_iniciada"
+        tools:ignore="DuplicateIds"
+        />
+
+    <Button
+        android:id="@+id/button_arrow_avatar"
+        android:layout_width="60dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="124dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:text=">"
+        android:textColor="@color/colorfucsia"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_cambiar_contra"
+        tools:layout_editor_absoluteY="396dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/txt_cambiar_contra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/change_pass_word"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_editar_avatar" />
+
+    <Button
+        android:id="@+id/button_cambiar_contra"
+        android:layout_width="60dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="4dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:text=">"
+        android:textColor="@color/colorfucsia"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_editar_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cuenta_iniciada"
+        />
+
+    <TextView
+        android:id="@+id/txt_mate_discreta_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:gravity="start"
+        android:text="@string/mate_discreta_plus"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tu_cuenta"
+        tools:layout_editor_absoluteX="43dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button_salvando_precio1"
+        android:layout_width="338dp"
+        android:layout_height="82dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#03533737"
+        android:text="Obtén acceso a ejercicios con una mayor dificultad. $1.00 por mes"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="492dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button_precio2"
+        android:layout_width="336dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#03533737"
+        android:text="Obtén acceso a ejercicios con una mayor dificultad y elimina los anuncios. $2.50 por mes"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="574dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button_cerrar_sesion"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/colorfucsia"
+        android:text="Cerrar sesión"
+        app:cornerRadius="12dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="665dp"
+        tools:ignore="MissingConstraints"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

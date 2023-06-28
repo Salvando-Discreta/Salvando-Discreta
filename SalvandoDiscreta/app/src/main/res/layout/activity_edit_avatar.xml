@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_elegir_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="¡ELIGE TU AVATAR!"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_jirafa"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/txt_elige_avatar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:text="Elige"
+        app:cornerRadius="12dip"
+        android:textSize="15sp"
+        android:backgroundTint="@color/colorfucsia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_cebra"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_gato"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="132dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/avatar_mapache"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="130dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_panda"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/avatar_zorro"
+        tools:layout_editor_absoluteX="142dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="136dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/avatar_oso"
+        tools:layout_editor_absoluteX="275dp"
+        tools:ignore="MissingConstraints"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_elegir_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="¡ELIGE TU AVATAR!"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_jirafa"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/txt_elige_avatar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:text="Elige"
+        app:cornerRadius="12dip"
+        android:textSize="15sp"
+        android:backgroundTint="@color/colorfucsia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_cebra"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_gato"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="132dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/avatar_mapache"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="130dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_panda"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/avatar_zorro"
+        tools:layout_editor_absoluteX="142dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="136dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/avatar_oso"
+        tools:layout_editor_absoluteX="275dp"
+        tools:ignore="MissingConstraints"/>
+</androidx.constraintlayout.widget.ConstraintLayout>ttp://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_elegir_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="¡ELIGE TU AVATAR!"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_jirafa"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/txt_elige_avatar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:text="Elige"
+        app:cornerRadius="12dip"
+        android:textSize="15sp"
+        android:backgroundTint="@color/colorfucsia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_cebra"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_gato"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="132dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/avatar_mapache"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="130dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_panda"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/avatar_zorro"
+        tools:layout_editor_absoluteX="142dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="136dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/avatar_oso"
+        tools:layout_editor_absoluteX="275dp"
+        tools:ignore="MissingConstraints"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_elegir_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="¡ELIGE TU AVATAR!"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_jirafa"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/txt_elige_avatar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:text="Elige"
+        app:cornerRadius="12dip"
+        android:textSize="15sp"
+        android:backgroundTint="@color/colorfucsia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_cebra"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_gato"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="132dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/avatar_mapache"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="130dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_panda"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/avatar_zorro"
+        tools:layout_editor_absoluteX="142dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="136dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/avatar_oso"
+        tools:layout_editor_absoluteX="275dp"
+        tools:ignore="MissingConstraints"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_elegir_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="¡ELIGE TU AVATAR!"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/colorfucsia"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_jirafa"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/txt_elige_avatar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:text="Elige"
+        app:cornerRadius="12dip"
+        android:textSize="15sp"
+        android:backgroundTint="@color/colorfucsia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_cebra"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_gato"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="132dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/avatar_mapache"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="130dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/avatar_panda"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/avatar_zorro"
+        tools:layout_editor_absoluteX="142dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="136dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/avatar_oso"
+        tools:layout_editor_absoluteX="275dp"
+        tools:ignore="MissingConstraints"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

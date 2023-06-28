@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="235dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgroundsalvandodiscreta" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/icon_facebook" />
+
+    <TextView
+        android:id="@+id/txt_facebook"
+        android:layout_width="183dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="55dp"
+        android:text="Nuestro facebook"
+        android:textColor="@color/colorfucsia"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="59dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/icon_instagram" />
+
+    <TextView
+        android:id="@+id/txt_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="45dp"
+        android:text="Nuestro instagram"
+        android:textColor="@color/colorfucsia"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/txt_facebook" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="58dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon_start"
+        tools:layout_editor_absoluteY="436dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/txt_calificar_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="55dp"
+        android:text="Califica nuestra aplicación"
+        android:textColor="@color/colorfucsia"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/txt_instagram" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="59dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon_documents"
+        tools:layout_editor_absoluteY="503dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/txt_terminos_condiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="55dp"
+        android:text="Términos y condiciones"
+        android:textColor="@color/colorfucsia"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/txt_calificar_app" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="61dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon_documents"
+        tools:layout_editor_absoluteY="593dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/txt_politicas_privacidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="76dp"
+        android:text="Políticas de privacidad"
+        android:textColor="@color/colorfucsia"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/txt_terminos_condiciones" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
