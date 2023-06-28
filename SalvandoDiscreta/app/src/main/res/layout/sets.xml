@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:letterSpacing="0.25"
+        android:text="@string/lesson_sets"
+        android:textAlignment="center"
+        android:textColor="@color/morado_oscuro"
+        android:textSize="@dimen/Tittles"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="305dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="1.5sp"
+        android:text="@string/info_sets"
+        android:textColor="@color/morado_oscuro"
+        android:textSize="@dimen/paragraph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="1.5sp"
+        android:text="@string/more_info_sets"
+        android:textColor="@color/morado_oscuro"
+        android:textSize="@dimen/paragraph"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_definition"
+        android:lineSpacingExtra="1.5sp"
+        android:text="@string/definition_set"
+        android:textColor="@color/morado_oscuro"
+        android:textSize="@dimen/paragraph"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_operations_sets"
+        android:layout_width="257dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorfucsia"
+        android:text="@string/operations_sets"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_size"
+        android:textStyle="bold"
+        app:cornerRadius="25dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <Button
+        android:id="@+id/btn_practice_sets"
+        android:layout_width="257dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorfucsia"
+        android:text="@string/to_practice"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_size"
+        android:textStyle="bold"
+        app:cornerRadius="25dip"
+        app:layout_constraintEnd_toEndOf="@+id/btn_operations_sets"
+        app:layout_constraintStart_toStartOf="@+id/btn_operations_sets"
+        app:layout_constraintTop_toBottomOf="@+id/btn_operations_sets" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Tittles">24sp</dimen>
+    <dimen name="paragraph">14sp</dimen>
+    <dimen name="subtittles">18sp</dimen>
+    <dimen name="btn_size">16sp</dimen>
+</resources>

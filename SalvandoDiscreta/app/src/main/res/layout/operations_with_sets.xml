@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:letterSpacing="0.25"
+            android:text="@string/tittle_operations_with_sets"
+            android:textAlignment="center"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/Tittles"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/definition1_operations_with_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/union_de_conjuntos"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView29"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/definition_union_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView29"
+            app:layout_constraintStart_toStartOf="@+id/textView30"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/example1"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView31"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/example1_union_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView31"
+            app:layout_constraintStart_toStartOf="@+id/textView32"
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/exaple2"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/example2_union_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView34"
+            app:layout_constraintStart_toStartOf="@+id/textView33"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="244dp"
+            android:layout_height="226dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sets_ex1"
+            android:contentDescription="@string/img_description_union_sets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/intersection_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView35"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/definition_intersection_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView35"
+            app:layout_constraintStart_toStartOf="@+id/textView36"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/example1_intersection"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView37"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/example1_intersection_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView37"
+            app:layout_constraintStart_toStartOf="@+id/textView38"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="244dp"
+            android:layout_height="226dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sets_ex12"
+            android:contentDescription="@string/img_intersection_sets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/diference_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView39"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/definition_diference_sets"
+            android:textColor="@color/morado_oscuro"
+            android:contentDescription="@string/definition_diference_sets"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView39"
+            app:layout_constraintStart_toStartOf="@+id/textView40"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/example1_diference"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView41"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/example1_diference_sets"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView41"
+            app:layout_constraintStart_toStartOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="224dp"
+            android:layout_height="226dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sets_ex13"
+            android:contentDescription="@string/img_diference_sets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example2_diference"
+            android:lineSpacingExtra="1.5sp"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView43"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/example2_diference_sets"
+            android:textColor="@color/morado_oscuro"
+            app:layout_constraintEnd_toEndOf="@+id/textView43"
+            app:layout_constraintStart_toStartOf="@+id/textView44"
+            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="224dp"
+            android:layout_height="226dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sets_ex14"
+            android:contentDescription="@string/img2_diference_sets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/complement_of_set"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView45"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/definition_complement_set"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView45"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:layout_marginTop="8dp"
+            android:text="@string/example1_complement"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView47"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="@string/example1_complement_set"
+            android:lineSpacingExtra="1.5sp"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="@+id/textView47"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="224dp"
+            android:layout_height="134dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sets_ex15"
+            android:contentDescription="@string/img_complement_set"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+        <Button
+            android:layout_width="257dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/to_practice"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_size"
+            android:textStyle="bold"
+            app:cornerRadius="25dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

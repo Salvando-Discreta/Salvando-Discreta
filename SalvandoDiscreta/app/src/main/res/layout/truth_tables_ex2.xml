@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="295dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0.25"
+            android:text="@string/tittle_complete_tables"
+            android:textAlignment="center"
+            android:textColor="@color/morado_oscuro"
+            android:textStyle="bold"
+            android:textSize="@dimen/Tittles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/indications_complete_tables"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textViewEx21"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorfucsia"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/number_1"
+            android:textAlignment="center"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewEx21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <ImageView
+            android:id="@+id/imageViewEx21"
+            android:layout_width="158dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/table_ex21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewEx21"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+        <TextView
+            android:id="@+id/textViewEx22"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorfucsia"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/number_2"
+            android:textAlignment="center"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEx21"
+            app:layout_constraintStart_toStartOf="@+id/textViewEx21"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx21" />
+
+        <ImageView
+            android:id="@+id/imageViewEx22"
+            android:layout_width="184dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/table_ex22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewEx22"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx21" />
+
+        <TextView
+            android:id="@+id/textViewEx23"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@color/colorfucsia"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/number_3"
+            android:textAlignment="center"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEx22"
+            app:layout_constraintStart_toStartOf="@+id/textViewEx22"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx22" />
+
+        <ImageView
+            android:id="@+id/imageViewEx23"
+            android:layout_width="184dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/table_ex23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewEx23"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx22" />
+
+        <TextView
+            android:id="@+id/textViewEx24"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@color/colorfucsia"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/number_4"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEx23"
+            app:layout_constraintStart_toStartOf="@+id/textViewEx23"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx23" />
+
+        <ImageView
+            android:id="@+id/imageViewEx24"
+            android:layout_width="184dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/table_ex24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewEx24"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx23" />
+
+        <TextView
+            android:id="@+id/textViewEx25"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@color/colorfucsia"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/number_5"
+            android:textAlignment="center"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEx24"
+            app:layout_constraintStart_toStartOf="@+id/textViewEx24"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx24" />
+
+        <ImageView
+            android:id="@+id/imageViewEx25"
+            android:layout_width="184dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/table_ex25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewEx25"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx24" />
+
+        <Button
+            android:id="@+id/btnSolutionTruthTable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/solution"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_size"
+            app:cornerRadius="25dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEx25" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="315dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0.25"
+            android:text="@string/tittle_complete_tables"
+            android:textAlignment="center"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/Tittles"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/answers"
+            android:textColor="@color/morado_oscuro"
+            android:textStyle="bold"
+            android:textSize="@dimen/subtittles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/table_1"
+            android:textColor="@color/morado_oscuro"
+            android:textStyle="bold"
+            android:textSize="@dimen/subtittles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/p_answer1"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageViewTableAnsw21"
+            android:layout_width="183dp"
+            android:layout_height="165dp"
+            android:src="@drawable/table_ans21"
+            android:contentDescription="@string/img_negation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/table_2"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTableAnsw21" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="324dp"
+            android:layout_height="115dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/p_table_2"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageViewTableAns22"
+            android:layout_width="192dp"
+            android:layout_height="199dp"
+            android:src="@drawable/table_ans22"
+            android:contentDescription="@string/img_conjuction"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/table_3"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTableAns22" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/p_table_3"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <ImageView
+            android:id="@+id/imageViewTableAnsw23"
+            android:layout_width="192dp"
+            android:layout_height="199dp"
+            android:src="@drawable/table_ans23"
+            android:contentDescription="@string/img_diyunction"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/table_4"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTableAnsw23" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/p_table_4"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <ImageView
+            android:id="@+id/imageViewTableAnsw24"
+            android:layout_width="192dp"
+            android:layout_height="199dp"
+            android:src="@drawable/table_ans24"
+            android:contentDescription="@string/img_conditional"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/table_5"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/subtittles"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTableAnsw24" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="324dp"
+            android:layout_height="106dp"
+            android:lineSpacingExtra="1.5sp"
+            android:text="@string/p_table_5"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="@dimen/paragraph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <ImageView
+            android:id="@+id/imageViewTableAnsw25"
+            android:layout_width="192dp"
+            android:layout_height="199dp"
+            android:src="@drawable/table_ans25"
+            android:contentDescription="@string/img_biconditional"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <Button
+            android:id="@+id/buttonReturnTruthTable"
+            android:contentDescription="@string/return_truth_table"
+            android:layout_width="257dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/colorfucsia"
+            android:text="@string/return_lesson"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_size"
+            android:textStyle="bold"
+            app:cornerRadius="25dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTableAnsw25" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
