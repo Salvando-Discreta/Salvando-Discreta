@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_white">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="569dp"
+        android:layout_weight="0">
+
+
+        <Button
+            android:id="@+id/btn_inicia_a_aprender"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="230dp"
+            android:gravity="center"
+            android:text="@string/inicia_a_aprender"
+            android:backgroundTint="@color/colorfucsia"
+            app:cornerRadius="@android:dimen/app_icon_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/salvando_discreta"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100sp"
+            app:srcCompat="@drawable/salvandodiscreta" />
+
+        <TextView
+            android:id="@+id/Bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:text="Bienvenido" />
+
+        <TextView
+            android:id="@+id/descripción"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="@string/descrip_tion_wel_come" />
+
+        <TextView
+            android:id="@+id/referencia"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="125sp"
+            android:textSize="12sp"
+            android:text="@string/refe_rence" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

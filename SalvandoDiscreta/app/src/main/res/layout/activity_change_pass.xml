@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <TextView
+        android:id="@+id/txt_recuperar_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="550dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/change_pass"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_cambie_su_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/pink"
+        android:text="@string/new_pass"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="150dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlined_new_pass"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:hint=""
+        android:textColorHint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cambie_su_contraseña"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_contraseña_nueva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_confirme_new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/pink"
+        android:text="@string/confirme_new_pass"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="280dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlined_confirme_new_pass"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:hint=""
+        android:textColorHint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_confirme_new_pass"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_confirme_new_passw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/img_error_icon_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/pink"
+            android:layout_marginLeft="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/icon_error_user"
+            app:layout_constraintTop_toBottomOf="@+id/outlined_user_name"
+            tools:ignore="MissingConstraints" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_change_pass_word"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="@string/change_pass_word"
+        android:backgroundTint="@color/colorfucsia"
+        app:cornerRadius="@android:dimen/app_icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="480dp"
+        android:gravity="center"
+        android:text="@string/can_cel"
+        android:backgroundTint="@color/colorfucsia"
+        app:cornerRadius="@android:dimen/app_icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/img_salvando_discreta_eclipse"
+        android:layout_width="750dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/salvando_discreta"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_contraseñas_no_coinciden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/pink"
+        android:text="Las contraseñas no coinciden"
+        android:textSize="14sp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="390dp"
+        tools:ignore="MissingConstraints"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
