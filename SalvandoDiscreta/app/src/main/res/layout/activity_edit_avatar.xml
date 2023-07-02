@@ -27,8 +27,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/avatar_jirafa"
-        tools:layout_editor_absoluteY="70dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="70dp" />
 
     <Button
         android:id="@+id/txt_elige_avatar"
