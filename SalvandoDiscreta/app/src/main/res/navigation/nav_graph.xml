@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bienvenidoFragment">
+
+    <fragment
+        android:id="@+id/inicioAppFragment"
+        android:name="com.proyectomov.salvandodiscreta.InicioAppFragment"
+        android:label="fragment_inicio_app"
+        tools:layout="@layout/fragment_inicio_app" >
+        <action
+            android:id="@+id/action_inicioAppFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_inicioAppFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.proyectomov.salvandodiscreta.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.proyectomov.salvandodiscreta.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_recuperarContraFragment"
+            app:destination="@id/recuperarContraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recuperarContraFragment"
+        android:name="com.proyectomov.salvandodiscreta.RecuperarContraFragment"
+        android:label="RecuperarContraFragment" >
+        <action
+            android:id="@+id/action_recuperarContraFragment_to_cambioContraFragment"
+            app:destination="@id/cambioContraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cambioContraFragment"
+        android:name="com.proyectomov.salvandodiscreta.CambioContraFragment"
+        android:label="CambioContraFragment" />
+    <fragment
+        android:id="@+id/bienvenidoFragment"
+        android:name="com.proyectomov.salvandodiscreta.BienvenidoFragment"
+        android:label="BienvenidoFragment" >
+        <action
+            android:id="@+id/action_bienvenidoFragment_to_inicioAppFragment"
+            app:destination="@id/inicioAppFragment" />
+    </fragment>
+</navigation>
